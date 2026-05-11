@@ -293,6 +293,182 @@
         justify-content: center;
       }
     }
+    /* =========================
+   RESPONSIVE MEDIA QUERIES
+========================= */
+
+/* Tablets */
+@media (max-width: 900px) {
+
+  header {
+    padding: 18px 5%;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 5%;
+    gap: 40px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+    line-height: 1.15;
+  }
+
+  .hero p {
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button-group {
+    justify-content: center;
+  }
+
+  .services,
+  .why-us,
+  .cta {
+    padding: 80px 5%;
+  }
+
+  .section-title h2 {
+    font-size: 40px;
+  }
+
+  .cta-box {
+    padding: 60px 30px;
+  }
+}
+
+/* Large phones */
+@media (max-width: 600px) {
+
+  .logo {
+    font-size: 22px;
+  }
+
+  .hero {
+    padding-top: 40px;
+  }
+
+  .hero-badge {
+    font-size: 12px;
+    padding: 8px 14px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .hero p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+  }
+
+  .button-group {
+    width: 100%;
+  }
+
+  .service-grid,
+  .why-container {
+    grid-template-columns: 1fr;
+  }
+
+  .section-title h2 {
+    font-size: 32px;
+  }
+
+  .section-title p {
+    font-size: 16px;
+  }
+
+  .service-content,
+  .why-card {
+    padding: 24px;
+  }
+
+  .price {
+    font-size: 28px;
+  }
+
+  .cta-box {
+    padding: 45px 20px;
+    border-radius: 24px;
+  }
+
+  .dashboard-card {
+    border-radius: 22px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 400px) {
+
+  header {
+    padding: 15px 4%;
+  }
+
+  .hero {
+    padding: 35px 4%;
+  }
+
+  .hero-text,
+  .hero-image {
+    min-width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .section-title h2 {
+    font-size: 26px;
+  }
+
+  .section-title p {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 14px;
+    border-radius: 12px;
+  }
+
+  .price {
+    font-size: 24px;
+  }
+
+  .why-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+  }
+
+  .cta-box {
+    padding: 35px 15px;
+  }
+
+  footer {
+    font-size: 13px;
+    padding: 30px 4%;
+  }
+}
   </style>
 </head>
 <body>
